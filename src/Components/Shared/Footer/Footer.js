@@ -4,7 +4,7 @@ import { faEnvelope, faMapMarkedAlt, faPhone } from '@fortawesome/free-solid-svg
 
 const Footer = () => {
     return (
-        <footer style={{backgroundColor: '#9E1F63'}} className="mt-5 py-4 text-white">
+        <footer className="mt-5 py-4 bg-dark text-white">
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 col-sm-12 py-3">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section style={{backgroundColor: '#9E1F63'}} className="container p-5 text-center contact">
+        <section style={{backgroundColor: '#383C36'}} className="container p-5 text-center contact">
             <h5 className="text-white text-uppercase">Contact us</h5>
             <div className="col-md-9 mx-auto">
             <form action="" className="mt-5">
