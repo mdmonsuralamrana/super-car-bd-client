@@ -38,6 +38,8 @@ const Book = () => {
           <form className="col-md-6 px-5">
             <input className="form-control" readOnly defaultValue={serviceInfo.name} />
             <br/>
+            <input className="form-control" readOnly defaultValue={serviceInfo.price} />
+            <br/>
             <input className="form-control" readOnly defaultValue={loggedInUser.displayName} />
             <br/>
             <input className="form-control" readOnly defaultValue={loggedInUser.email} />
