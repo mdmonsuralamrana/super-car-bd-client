@@ -13,7 +13,7 @@ const Book = () => {
     const booking = {customerName: loggedInUser.displayName, customerEmail: loggedInUser.email, serviceInfo, paymentId, status: 'Pending', bookingTime: new Date()}
     
 
-    fetch('http://localhost:5000/addBooking', {
+    fetch('https://supercarbd.herokuapp.com/addBooking', {
       method: 'POST',
       headers: {'content-type' : 'application/json'},
       body: JSON.stringify(booking)

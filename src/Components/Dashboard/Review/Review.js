@@ -27,7 +27,7 @@ const Review = () => {
         }
         else {
             const newReview = { ...data, image: imageUrl }
-            fetch('http://localhost:5000/addTestimonial', {
+            fetch('https://supercarbd.herokuapp.com/addTestimonial', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

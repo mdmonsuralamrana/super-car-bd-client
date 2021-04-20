@@ -9,7 +9,7 @@ const Sidebar = () => {
     const loggedInUser = JSON.parse(sessionStorage.getItem("loggedInUser")) || {};
 
     useEffect(() => {
-        fetch(`http://localhost:5000/admin?email=${loggedInUser.email}`)
+        fetch(`https://supercarbd.herokuapp.com/admin?email=${loggedInUser.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data))
     }, [])

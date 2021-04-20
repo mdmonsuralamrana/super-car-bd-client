@@ -6,7 +6,7 @@ const BookingList = () => {
   const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/bookings?email=${loggedInUser.email}`)
+    fetch(`https://supercarbd.herokuapp.com/bookings?email=${loggedInUser.email}`)
     .then(res => res.json())
     .then(data => setBookings(data))
   },[])

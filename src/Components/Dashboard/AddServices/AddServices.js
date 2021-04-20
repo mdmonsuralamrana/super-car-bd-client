@@ -27,7 +27,7 @@ const AddServices = () => {
         }
         else {
             const newService = { ...data, image: imageUrl }
-            fetch('http://localhost:5000/addService', {
+            fetch('https://supercarbd.herokuapp.com/addService', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -8,7 +8,7 @@ const MakeAdmin = () => {
     const onSubmit = data => {
 
         console.log(data)
-        fetch('http://localhost:5000/makeAdmin', {
+        fetch('https://supercarbd.herokuapp.com/makeAdmin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -7,13 +7,13 @@ const ManageServices = () => {
     const [services, setServices] = useState([]);
 
     useEffect(()=> {
-        fetch('http://localhost:5000/service')
+        fetch('https://supercarbd.herokuapp.com/service')
         .then(res => res.json())
         .then(data => setServices(data))
     }, [])
 
     const handleDelete = ((id) => {
-        fetch(`http://localhost:5000/deleteService/${id}`,{
+        fetch(`https://supercarbd.herokuapp.com/deleteService/${id}`,{
             method: 'DELETE'
         })
         .then(res => res.json())
