@@ -1,6 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.btn-brand{
+  background-image: linear-gradient(75deg, #6FB7BB,#5ED569);
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.text-brand{
+  color: #4F4F4F;
+}
+
 .App {
   text-align: center;
-  overflow: hidden;
 }
 
 .App-logo {

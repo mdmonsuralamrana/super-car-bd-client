@@ -1,20 +1,24 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Service from '../Service/Service';
 import Footer from '../../Shared/Footer/Footer';
-import News from '../News/News';
-import BestOfUs from '../BestOfUs/BestOfUs';
-import Review from '../Review/Review';
+import FooterButton from '../../Shared/FooterButton/FooterButton';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Header from '../Header/Header';
+import Portfolio from '../Portfolio/Portfolio';
+import Services from '../Services/Services';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Service></Service>
-            <BestOfUs></BestOfUs>
-            <News></News>
-            <Review></Review>
+            <About></About>
+            <Services></Services>
+            <Portfolio></Portfolio>
+            <Testimonials></Testimonials>
+            <Contact></Contact>
             <Footer></Footer>
+            <FooterButton></FooterButton>
         </div>
     );
 };
