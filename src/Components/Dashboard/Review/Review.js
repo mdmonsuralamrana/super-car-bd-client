@@ -44,13 +44,15 @@ const Review = () => {
         }
     };
 
+    const style={overflowY: 'hidden', overflowX: 'hidden'}
+
     return (
-        <section>
+        <section style={{margin:'0'}}>
             <div className="row">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>
                 </div>
-                <div className="col-md-10">
+                <div style={style} className="col-md-10">
                     <form onSubmit={handleSubmit(onSubmit)} className="col-md-6 p-5">
                         <input className="form-control mb-3" type="text" placeholder="Enter Your Name" {...register("name", { required: true })} />
 

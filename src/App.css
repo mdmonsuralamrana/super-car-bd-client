@@ -1,20 +1,21 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(76deg , rgb(236, 190, 190) , rgb(228, 186, 186));
+  color: lightcoral;
+  background-image: linear-gradient(76deg , rgb(35,43,43) , rgb(0,0,0));
 }
 .btn-brand{
-  background-image: linear-gradient(75deg, #6FB7BB,#5ED569);
+  background-image: linear-gradient(75deg, #f73b3b,#d55eb7);
   border-color: transparent;
   text-transform: uppercase;
   font-weight: 600;
 }
 .text-brand{
-  color: #4F4F4F;
+  color: lightcyan;
 }
 
 .background{
-  background-image: linear-gradient(76deg , rgb(236, 190, 190) , rgb(228, 186, 186));
+  background-image: linear-gradient(76deg , rgb(35,43,43) , rgb(0,0,0));
 }
 
 .App {

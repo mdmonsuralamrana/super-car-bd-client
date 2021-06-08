@@ -1,5 +1,7 @@
 import React from "react";
+import './HeaderMain.css';
 import car from "../../../images/car3.jpg";
+
 
 const HeaderMain = () => {
   return (
@@ -15,7 +17,7 @@ const HeaderMain = () => {
           <p className="text-muted">
             Damaged Your Car ? Don't get tense. We are with you.
           </p>
-          <button className="btn btn-brand text-white">take service now</button>
+          <button className="btn take-service-btn btn-brand text-white"><a href="#services"> take service now </a></button>
         </div>
         <div className="col-md-6">
           <img className="img-fluid" src={car} alt="" />

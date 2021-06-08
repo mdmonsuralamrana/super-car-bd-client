@@ -1,16 +1,12 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 
-const containerStyle = {
-    backgroundColor: "#F4FDFB",
-    height:"100%"
-}
 
 const Dashboard = () => {
 
     return (
         <section>
-            <div style={containerStyle} className="container-fluid row background">
+            <div className="container-fluid row background">
                 <div className="col-md-3">
                     <Sidebar></Sidebar>
                 </div>

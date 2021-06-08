@@ -1,0 +1,14 @@
+.service-container {
+    z-index: 0;
+    transition: 0.2s all;
+    overflow: hidden;
+}
+
+.service-container:hover {
+    background-color: rgb(131, 131, 131);
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1.05);
+    color:rgb(151, 5, 156);
+
+  }

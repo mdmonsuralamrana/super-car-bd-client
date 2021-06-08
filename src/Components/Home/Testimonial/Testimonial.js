@@ -1,10 +1,11 @@
 import React from "react";
+import './Testimonial.css';
 
 const Testimonial = (props) => {
   const { description, image, name, country } = props.testimonial;
   return (
     <div className="col-md-4 col-sm-12">
-      <div className="shadow p-4 rounded"> 
+      <div className="testimonial-container shadow p-4 rounded"> 
           <p className="mb-4">{description}</p>
         <div className="d-flex">
           <div className="col-md-3"> 

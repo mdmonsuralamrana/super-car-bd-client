@@ -1,0 +1,11 @@
+.testimonial-container {
+    z-index: 0;
+    transition: 0.2s all;
+    overflow: hidden;
+}
+.testimonial-container:hover{
+    background-color: rgb(94, 94, 94);
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1.05)
+}

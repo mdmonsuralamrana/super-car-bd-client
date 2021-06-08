@@ -6,7 +6,7 @@ import news3 from '../../../images/news3.jpg';
 
 const Portfolio = () => {
     return (
-        <section style={{backgroundColor: '#294B4D'}} className="container text-white text-center p-5 mb-5">
+        <section id="news" style={{backgroundColor: '#294B4D'}} className="container text-white text-center p-5 mb-5">
             <div className="row">
                 <h2>News About Us</h2>
                 <div className="col-md-4">
