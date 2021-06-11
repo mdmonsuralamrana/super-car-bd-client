@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+
+    useEffect(() => {
+        AOS.init()
+    },[])
 
     useEffect(()=> {
         fetch('https://supercarbd.herokuapp.com/service')
@@ -17,7 +22,7 @@ const Services = () => {
                 <h2 className="text-brand mb-3">Our Services</h2>
             </div>
             <div className="container text-center">
-                <div className="row">
+                <div className="row" data-aos="zoom-in-down">
                     {
                         services.map(service => <ServiceDetail key={service._id} service={service}></ServiceDetail>)
                     }
