@@ -12,6 +12,7 @@ const BookingList = () => {
   },[])
 
   console.log(bookings)
+  console.log(bookings.serviceInfo);
   return (
     <section>
       <div className="row">
