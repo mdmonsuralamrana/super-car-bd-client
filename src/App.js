@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+
 import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';

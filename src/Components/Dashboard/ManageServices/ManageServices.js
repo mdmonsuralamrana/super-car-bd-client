@@ -32,7 +32,7 @@ const ManageServices = () => {
                 </div>
                 <div className="col-md-10">
                 <div className="col-md-10 p-5">
-          <table class="table text-center">
+          <table class="table text-center bg-light">
             <thead className="bg-light">
               <tr>
               <th scope="col">Sr No</th>
